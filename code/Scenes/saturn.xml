@@ -1,0 +1,18 @@
+<scene>
+    <lights>
+        <light type="POINT" posX="100" posY="100" posZ="0"/>
+    </lights>
+    <group>
+        <rotate angle ="26.7" axisX="0" axisY="0" axisZ="1"/>
+        <rotate time="100.2" axisX="0" axisY="1" axisZ="0"/>
+        <scale X="69.0" Y= "69.0" Z= "69.0"/>
+        <models>
+            <model file="../../Scenes/3dFiles/planeta.3d" texture="../../Textures/2k_saturn.jpg" />
+        </models>
+        <group>
+            <models>
+                <model file="../../Scenes/3dFiles/ring.3d" texture ="../../Textures/rings.jpg" diffR="1.0f" diffG="1.0f" diffB="1.0f" ambR="1.0f" ambG="1.0f" ambB="1.0f"/>
+            </models>
+        </group>
+    </group>
+</scene>

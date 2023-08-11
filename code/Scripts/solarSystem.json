@@ -1,0 +1,364 @@
+{
+    "Planets":[
+        {
+            "name":"Mercury",
+            "radius": 2439,
+            "distance_to_sun": 0.4,
+            "axis_inclination":0, 
+            "rings":"False",
+            "relative_radius": 1,
+            "eccentricity": 0.20563593,
+            "rotation_period": 58.646,
+            "orbital_period": 88,
+            "inclination": 7,
+            "texture": "2k_mercury.jpg",
+            "Moons":[]
+        },{
+            "name":"Venus",
+            "radius": 6051,
+            "distance_to_sun": 1.1,
+            "axis_inclination": 177.3, 
+            "rings":"False",
+            "relative_radius": 1.85,
+            "eccentricity": 0.00677672,
+            "rotation_period": 243.021,
+            "orbital_period": 224.7,
+            "inclination": 3.4,
+            "texture": "2k_venus_surface.jpg",
+            "Moons":[]
+        },{
+            "name":"Earth",
+            "radius": 6371,
+            "distance_to_sun": 2,
+            "axis_inclination": 23.4, 
+            "rings":"False",
+            "relative_radius": 2,
+            "eccentricity": 0.01671123,
+            "rotation_period": 0.9972,
+            "orbital_period": 365.256,
+            "inclination": 7.155,
+            "texture": "2k_earth_daymap.jpg",
+            "Moons":[
+                {
+                    "name":"Moon",
+                    "radius": 1737.5,
+                    "distance_to_planet": 184400,
+                    "relative_radius": 0.8,
+                    "inclination": 5.145,
+                    "orbital_period": 27.321,
+                    "rotation_period": 27.321,
+                    "texture": "2k_moon.jpg"
+                }
+            ]
+        },{
+            "name":"Mars",
+            "radius": 3389,
+            "distance_to_sun": 3,
+            "axis_inclination": 25.2, 
+            "rings":"False",
+            "relative_radius": 1.4,
+            "eccentricity": 0.0933941,
+            "rotation_period": 1.026,
+            "orbital_period": 686.971,
+            "inclination": 1.850,
+            "texture": "2k_mars.jpg",
+            "Moons":[
+                {
+                    "name":"Phobos",
+                    "radius": 11.1,
+                    "distance_to_planet": 40000,
+                    "relative_radius": 0.1,
+                    "inclination": 1.093,
+                    "orbital_period": 1.90,
+                    "rotation_period": 0,
+                    "texture": "phobosTexture.png"
+                },{
+                    "name":"Deimos",
+                    "radius": 6.2,
+                    "distance_to_planet": 70458,
+                    "relative_radius": 0.08,
+                    "inclination": 0.93,
+                    "orbital_period": 0.31,
+                    "rotation_period": 0,
+                    "texture": "deimos.png"
+                }
+            ]
+        },{
+            "name":"Jupiter",
+            "radius": 69911,
+            "distance_to_sun": 7.2,
+            "axis_inclination": 3.1, 
+            "rings":"False",
+            "relative_radius": 5,
+            "eccentricity": 0.04838624,
+            "rotation_period": 0.41,
+            "orbital_period": 4331.572,
+            "inclination": 1.305,
+            "texture": "2k_jupiter.jpg",
+            "Moons":[
+                {
+                    "name":"Io",
+                    "radius": 1821.6,
+                    "distance_to_planet": 322000,
+                    "relative_radius": 0.85,
+                    "inclination": 0.05,
+                    "orbital_period": 1.77,
+                    "rotation_period": 0,
+                    "texture": "IOtexture.jpg"
+                },{
+                    "name":"Europa",
+                    "radius": 1560.8,
+                    "distance_to_planet": 601000,
+                    "relative_radius": 0.65,
+                    "inclination": 0.470,
+                    "orbital_period": 3.55,
+                    "rotation_period": 0,
+                    "texture": "europaTexture.jpg"
+                },{
+                    "name":"Ganymedes",
+                    "radius": 2631.2,
+                    "distance_to_planet": 880000,
+                    "relative_radius": 1.1,
+                    "inclination": 2.214,
+                    "orbital_period": 7.16,
+                    "rotation_period": 0.33,
+                    "texture": "ganymedeTexture.png"
+                },{
+                    "name":"Callisto",
+                    "radius": 2410.3,
+                    "distance_to_planet": 1203000,
+                    "relative_radius": 0.9,
+                    "inclination": 0.192,
+                    "orbital_period": 16.69,
+                    "rotation_period": 16.67,
+                    "texture": "CallistoTexture.jpg"
+                }
+            ]
+        },{
+            "name":"Saturn",
+            "radius": 58232,
+            "distance_to_sun": 12,
+            "axis_inclination": 26.7, 
+            "rings":"True",
+            "relative_radius": 4.6,
+            "eccentricity": 0.05386179,
+            "rotation_period": 0.42,
+            "orbital_period": 10759.22,
+            "inclination": 2.485,
+            "texture": "2k_saturn.jpg",
+            "texture_rings": "rings.jpg",
+            "Moons":[
+                {
+                    "name":"Enceladus",
+                    "radius": 252.1,
+                    "distance_to_planet": 238000,
+                    "relative_radius": 0.2,
+                    "inclination": 0.019,
+                    "orbital_period": 1.37,
+                    "rotation_period": 1.33,
+                    "texture": "enceladusTexture.jpg"
+                },{
+                    "name":"Titan",
+                    "radius": 257.7,
+                    "distance_to_planet": 750000,
+                    "relative_radius":0.21,
+                    "inclination": 0.348,
+                    "orbital_period": 15.94,
+                    "rotation_period": 15.94,
+                    "texture": "titanTexture.jpg"
+                },{
+                    "name":"Dione",
+                    "radius": 561.7,
+                    "distance_to_planet": 377400,
+                    "relative_radius": 0.35,
+                    "inclination": 0.019,
+                    "orbital_period": 2.7,
+                    "rotation_period": 2.7,
+                    "texture": "dioneTexture.jpeg"
+                },{
+                    "name":"Iapetus",
+                    "radius": 735.6,
+                    "distance_to_planet": 1061000,
+                    "relative_radius": 0.4,
+                    "inclination": 15.47,
+                    "orbital_period": 79.3,
+                    "rotation_period": 79.3,
+                    "texture": "lapetusTexture.jpg"
+                },{
+                    "name":"Mimas",
+                    "radius": 198.2,
+                    "distance_to_planet": 185520,
+                    "relative_radius": 0.18,
+                    "inclination": 1.53,
+                    "orbital_period": 0.93,
+                    "rotation_period": 0.94,
+                    "texture": "mimasTexture.jpg"
+                },{
+                    "name":"Rhea",
+                    "radius": 764.3,
+                    "distance_to_planet": 527000,
+                    "relative_radius": 0.41,
+                    "inclination": 0.345,
+                    "orbital_period": 4.52,
+                    "rotation_period": 4.5,
+                    "texture": "rheaTexture.jpg"
+                },{
+                    "name":"Tethys",
+                    "radius": 533,
+                    "distance_to_planet": 295000,
+                    "relative_radius": 0.34,
+                    "inclination": 1.12,
+                    "orbital_period": 1.87,
+                    "rotation_period": 1.89,
+                    "texture": "tethysTexture.jpg"
+                }
+            ]
+        },{
+            "name":"Uranus",
+            "radius": 25362,
+            "distance_to_sun": 17,
+            "axis_inclination": 97.8, 
+            "rings":"False",
+            "relative_radius": 3.5,
+            "eccentricity": 0.04725744,
+            "rotation_period": 0.718,
+            "orbital_period": 30799.095,
+            "inclination": 0.772,
+            "texture": "2k_uranus.jpg",
+            "Moons":[
+                {
+                    "name":"Ariel",
+                    "radius": 578.9,
+                    "distance_to_planet": 190000,
+                    "relative_radius": 0.36,
+                    "inclination": 0.260,
+                    "orbital_period": 2.52,
+                    "rotation_period": 2.5,
+                    "texture": "arielTexture.jpg"
+                },{
+                    "name":"Miranda",
+                    "radius": 235.8,
+                    "distance_to_planet": 129800,
+                    "relative_radius": 0.19,
+                    "inclination": 4.232,
+                    "orbital_period": 1.41,
+                    "rotation_period": 1.41,
+                    "texture": "mirandaTexture.png"
+                },{
+                    "name":"Umbriel",
+                    "radius": 584.7,
+                    "distance_to_planet": 306300,
+                    "relative_radius": 0.35,
+                    "inclination": 0.128,
+                    "orbital_period": 4.144,
+                    "rotation_period": 4.144,
+                    "texture": "umbrielTexture.png"
+                },{
+                    "name":"Titânia",
+                    "radius": 778.9,
+                    "distance_to_planet": 436000,
+                    "relative_radius": 0.43,
+                    "inclination": 0.260,
+                    "orbital_period": 2.52,
+                    "rotation_period": 2.5,
+                    "texture": "titaniaTexture.jpg"
+                },{
+                    "name":"Oberon",
+                    "radius": 761.4,
+                    "distance_to_planet": 582600,
+                    "relative_radius": 0.42,
+                    "inclination": 0.058,
+                    "orbital_period": 13.46,
+                    "rotation_period": 13.46,
+                    "texture": "oberonTexture.jpeg"
+                }
+            ]
+        },{
+            "name":"Neptune",
+            "radius": 24622,
+            "distance_to_sun": 22,
+            "axis_inclination": 28.3, 
+            "rings":"False",
+            "relative_radius": 3.3,
+            "eccentricity": 0.00859048,
+            "rotation_period": 0.6713,
+            "orbital_period": 60190.03,
+            "inclination": 1.767975,
+            "texture": "2k_neptune.jpg",
+            "Moons":[
+                {
+                    "name":"Triton",
+                    "radius": 1353.4,
+                    "distance_to_planet":354800,
+                    "relative_radius":0.65,
+                    "inclination": 0.348,
+                    "orbital_period": 5.876,
+                    "rotation_period": 5.875,
+                    "texture": "tritonTexture.jpg"
+                }
+            ]
+        }
+    ],
+    "Comets":[
+        {
+            "name":"Halley",
+            "diametro": 11,
+            "relative_radius": 0.2,
+            "aphelion": 25,
+            "eccentricity": 0.967,
+            "perihelion": 0.6,
+            "orbital_period": 27484.5,
+            "inclination": 162.3,
+            "texture": "asteroid.png"
+        }
+    ],
+    "Asteroid_belts":[
+        {
+            "name":"main belt",
+            "inner_radius": 4.5,
+            "outter_radius": 5.5,
+            "relative_radius": 0.20,
+            "texture": "asteroid.png"
+        },{
+            "name":"Kuiper belt",
+            "inner_radius": 28,
+            "outter_radius": 38,
+            "relative_radius": 0.20,
+            "texture": "asteroid.png"
+        }
+    ],
+    "Dwarf_planets":[
+        {
+            "name":"Pluto",
+            "radius": 1151,
+            "distance_to_sun": 26,
+            "axis_inclination": 122.5,
+            "relative_radius": 0.57,
+            "rotation_period": 6.387,
+            "eccentricity" : 0.25,
+            "orbital_period": 90613.305,
+            "inclination": 17.14175,
+            "texture": "2k_pluto.jpg"
+        },{
+            "name":"Ceres",
+            "radius": 476.2,
+            "distance_to_sun": 5,
+            "axis_inclination": 0,
+            "rings":"False",
+            "relative_radius": 0.33,
+            "rotation_period": 0.378,
+            "eccentricity" : 0.08,
+            "orbital_period": 1680.5,
+            "inclination": 10.585,
+            "texture": "2k_ceres_fictional.jpg"
+        }
+    ],
+    "sun":[
+        {
+            "radius": 696340,
+            "relative_radius": 10,
+            "rotation_period": 25.38,
+            "texture": "2k_sun.jpg"
+        }
+    ]
+}

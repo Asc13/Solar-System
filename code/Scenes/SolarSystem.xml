@@ -1,0 +1,288 @@
+<scene>
+	<lights>
+		<light type="Point" posX="0" posY="10" posZ="0" />
+	</lights>
+	<group>
+		<scale X="150" Y= "150" Z= "150"/>
+		<models>
+			<model file="../../Scenes/3dFiles/sol.3d"/>
+		</models>
+	</group>
+	<group>
+		<group>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="244.06829466666667"/>
+			<scale X="15" Y= "15" Z= "15"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planeta.3d"/>
+			</models>
+		</group>
+		<group>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="396.8134786666667"/>
+			<scale X="27.75" Y= "27.75" Z= "27.75"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planeta.3d"/>
+			</models>
+		</group>
+		<group>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="579.063052"/>
+			<scale X="30" Y= "30" Z= "30"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planeta.3d"/>
+			</models>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="2.928715747485258"/>
+				<scale X="0.4" Y= "0.4" Z= "0.4"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="770.0670279999999"/>
+			<scale X="21.0" Y= "21.0" Z= "21.0"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planeta.3d"/>
+			</models>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="1.5248240919676925"/>
+				<scale X="0.07142857142857142" Y= "0.07142857142857142" Z= "0.07142857142857142"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="1.8879094197512516"/>
+				<scale X="0.05714285714285714" Y= "0.05714285714285714" Z= "0.05714285714285714"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="1663.978332"/>
+			<scale X="75" Y= "75" Z= "75"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planeta.3d"/>
+			</models>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="2.0380797780090187"/>
+				<scale X="0.17" Y= "0.17" Z= "0.17"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="2.966726326742976"/>
+				<scale X="0.13" Y= "0.13" Z= "0.13"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="4.020755463059313"/>
+				<scale X="0.22" Y= "0.22" Z= "0.22"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="5.101882414151925"/>
+				<scale X="0.18" Y= "0.18" Z= "0.18"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="2617.993904"/>
+			<scale X="69.0" Y= "69.0" Z= "69.0"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planeta.3d"/>
+			</models>
+				<group>
+				<rotate angle ="26.7" axisX="0" axisY="0" axisZ="1"/>
+				<models>
+						<model file="../../Scenes/3dFiles/ring.3d"/>
+				</models>
+				</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="1.72029400232246"/>
+				<scale X="0.043478260869565216" Y= "0.043478260869565216" Z= "0.043478260869565216"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="3.652803163974725"/>
+				<scale X="0.04565217391304348" Y= "0.04565217391304348" Z= "0.04565217391304348"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="2.27730511695245"/>
+				<scale X="0.07608695652173914" Y= "0.07608695652173914" Z= "0.07608695652173914"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="4.864846400941048"/>
+				<scale X="0.08695652173913043" Y= "0.08695652173913043" Z= "0.08695652173913043"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="1.5182878643924658"/>
+				<scale X="0.03913043478260869" Y= "0.03913043478260869" Z= "0.03913043478260869"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="2.8536107466558085"/>
+				<scale X="0.0891304347826087" Y= "0.0891304347826087" Z= "0.0891304347826087"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="1.9645726824412977"/>
+				<scale X="0.07391304347826087" Y= "0.07391304347826087" Z= "0.07391304347826087"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="3601.5377306666664"/>
+			<scale X="52.5" Y= "52.5" Z= "52.5"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planeta.3d"/>
+			</models>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="1.915795550270056"/>
+				<scale X="0.10285714285714284" Y= "0.10285714285714284" Z= "0.10285714285714284"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="1.570623854120212"/>
+				<scale X="0.054285714285714284" Y= "0.054285714285714284" Z= "0.054285714285714284"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="2.4891942916604726"/>
+				<scale X="0.1" Y= "0.1" Z= "0.1"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="3.15377285565631"/>
+				<scale X="0.12285714285714286" Y= "0.12285714285714286" Z= "0.12285714285714286"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="3.877428274119221"/>
+				<scale X="0.12" Y= "0.12" Z= "0.12"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="4598.538717333333"/>
+			<scale X="49.5" Y= "49.5" Z= "49.5"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planeta.3d"/>
+			</models>
+			<group>
+				<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+				<translate Z="2.9250969633904074"/>
+				<scale X="0.19696969696969696" Y= "0.19696969696969696" Z= "0.19696969696969696"/>
+				<models>
+					<model file="../../Scenes/3dFiles/lua.3d"/>
+				</models>
+			</group>
+		</group>
+	</group>
+	<group>
+		<group>
+			<translate X="5200"/>
+			<scale X="8.549999999999999" Y= "8.549999999999999" Z= "8.549999999999999"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planetaAnao.3d"/>
+			</models>
+		</group>
+		<group>
+			<translate X="1000"/>
+			<scale X="4.95" Y= "4.95" Z= "4.95"/>
+			<models>
+				<model file="../../Scenes/3dFiles/planetaAnao.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<group>
+			<translate X="5000"/>
+			<scale X="3.0" Y= "3.0" Z= "3.0"/>
+			<models>
+				<model file="../../Scenes/3dFiles/teapot.3d"/>
+			</models>
+		</group>
+	</group>
+	<group>
+		<group>
+			<replicate N="200"/>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="Rand(900.0,1100.0)" Y="Rand(-50,50)"/>
+			<scale X="3.0" Y= "3.0" Z= "3.0"/>
+			<models>
+				<model file="../../Scenes/3dFiles/asteroid3.3d"/>
+			</models>
+		</group>
+		<group>
+			<replicate N="200"/>
+			<rotate angle="Rand(0.0,360.0)" axisX="0" axisY="1" axisZ="0"/>
+			<translate X="Rand(5600,7600)" Y="Rand(-50,50)"/>
+			<scale X="3.0" Y= "3.0" Z= "3.0"/>
+			<models>
+				<model file="../../Scenes/3dFiles/asteroid3.3d"/>
+			</models>
+		</group>
+	</group>
+</scene>

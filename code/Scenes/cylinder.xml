@@ -1,0 +1,11 @@
+<scene>
+    <lights>
+        <light type="POINT" posX="100" posY="0" posZ="0"/>
+    </lights>
+    <group>
+        <scale X="10" Y= "10" Z="10"/>
+        <models>
+            <model file="../../Demo/cylinder.3d" texture="../../Textures/cylinderTexture.jpg" />
+        </models>
+    </group>
+</scene>
