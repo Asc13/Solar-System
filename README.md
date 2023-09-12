@@ -1,4 +1,4 @@
-# Solar-System-OpenGL
+# Solar System OpenGL
 
 **Concepts:** Graphics Engine
 
